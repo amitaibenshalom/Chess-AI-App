@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="291dp"
+        android:layout_height="154dp"
+        android:fontFamily="@font/bevan"
+        android:gravity="center"
+        android:text="Chess"
+        android:textColor="#FFFFFF"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/musicBtn"
+        android:layout_width="184dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="25dp"
+        android:text="music"
+        android:background="@drawable/costume_button"
+        android:fontFamily="@font/days_one"
+        android:textColor="#000058"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/leaderBoardBtn"
+        android:layout_width="184dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/costume_button"
+        android:fontFamily="@font/days_one"
+        android:textColor="#000058"
+        android:text="leader board"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/closeBtn"
+        android:layout_width="184dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/costume_button"
+        android:fontFamily="@font/days_one"
+        android:textColor="#000058"
+        android:text="exit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rulesBtn"
+        android:layout_width="184dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="25dp"
+        android:text="rules"
+        android:background="@drawable/costume_button"
+        android:fontFamily="@font/days_one"
+        android:textColor="#000058"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startBtn"
+        android:layout_width="184dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/costume_button"
+        android:fontFamily="@font/days_one"
+        android:text="start"
+        android:textColor="#000058"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
+        android:id="@+id/userText"
+        android:layout_width="262dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="Loading user"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/ratingText"
+        android:layout_width="169dp"
+        android:layout_height="28dp"
+        android:gravity="center_vertical"
+        android:text="Loading rating"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/costume_button"
+        android:textColor="#000058"
+        android:text="log out"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/userText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/swMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toEndOf="@+id/ratingText"
+        android:checked="true"
+        app:layout_constraintTop_toBottomOf="@+id/logOutBtn"
+        app:layout_constraintVertical_bias="0.314" />
+    <!--app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/userText"
+    app:layout_constraintHorizontal_bias="0.401"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.073" --> />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

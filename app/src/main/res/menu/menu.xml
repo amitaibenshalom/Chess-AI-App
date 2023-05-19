@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnCallAFriend"
+        android:orderInCategory="100"
+        android:title="Call a Friend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnMusic"
+        android:orderInCategory="100"
+        android:title="Music"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnMute"
+        android:orderInCategory="100"
+        android:title="Mute Sound"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exitBtn"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>

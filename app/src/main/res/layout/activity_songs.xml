@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chess_bg6"
+    android:orientation="vertical"
+    tools:context=".SongsActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:text=" Music List "
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="normal|bold" />
+    <ListView
+        android:backgroundTint="@color/white"
+
+        android:id="@+id/lvSongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

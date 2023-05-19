@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/wooden_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Leaderboard"
+        android:fontFamily="casual"
+        android:id="@+id/textLeaderb"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+   <!-- <ListView
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:layout_above="@+id/close2Btn"
+        android:id="@+id/leaderBoardListView"
+        android:layout_below="@+id/textLeaderb"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textLeader0"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textLeader1"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textLeader2"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textLeader3"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textLeader4"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ratingText0"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textDirection="rtl"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ratingText1"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textDirection="rtl"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ratingText2"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textDirection="rtl"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ratingText3"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textDirection="rtl"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ratingText4"
+                android:fontFamily="@font/bevan"
+                android:textColor="@color/white"
+                android:textDirection="rtl"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/close2Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="close"
+        android:background="@drawable/costume_button"
+        android:fontFamily="@font/days_one"
+        android:textColor="#000058"
+        android:textSize="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/wooden_bg"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:id="@+id/bishopBtn"
+        app:srcCompat='@drawable/chess_wb'
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        />
+    <ImageButton
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:id="@+id/knightBtn"
+        app:srcCompat='@drawable/chess_wn'
+        android:background="@null"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        app:srcCompat='@drawable/chess_wr'
+        android:id="@+id/rookBtn"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        />
+    <ImageButton
+        android:layout_width="51dp"
+        android:id="@+id/queenBtn"
+        android:layout_height="51dp"
+        app:srcCompat='@drawable/chess_wq'
+        android:background="@null"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

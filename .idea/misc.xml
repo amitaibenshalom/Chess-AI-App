@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animanted_bg_4.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animated_bg_1.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animated_bg_2.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animated_bg_3.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animated_bg_4.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animated_bg_5.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/animated_bg_6.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_bb.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_bk.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_bn.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_bp.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_bq.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_br.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_wb.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_wk.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_wp.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_wq.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/chess_wr.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/costume_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/costume_button.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/costume_button2.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/gradient_list.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/gradient_list2.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20307692307692307" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/drawable/layer.xml" value="0.1125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/font/aclonica.xml" value="0.1609375" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/font/bad_script.xml" value="0.1609375" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.11847389558232932" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_ai.xml" value="0.33" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_ai_hard.xml" value="0.140625" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_ai_levels.xml" value="0.25" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_games.xml" value="0.17" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_login.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_login_signup.xml" value="0.16" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_rooms.xml" value="0.25" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_rules.xml" value="0.18" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_songs.xml" value="0.25" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_two_player.xml" value="0.25" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/activity_two_player_room.xml" value="0.22" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/content_scrolling.xml" value="0.33" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/endgame_layout.xml" value="0.33" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/leaderboard_layout.xml" value="0.5" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/promote.xml" value="0.25" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/room_list_view_layout.xml" value="0.67" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/layout/rules_layout.xml" value="0.1503823279524214" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/menu/menu.xml" value="0.5129533678756477" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/menu/menuGame.xml" value="0.1578125" />
+        <entry key="..\:/Users/amita/AndroidStudioProjects/Chess2/app/src/main/res/menu/menugame.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
